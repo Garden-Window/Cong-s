@@ -1,0 +1,40 @@
+.card-body {
+    padding: 0 var(--bs-card-spacer-x) !important;
+}
+
+/* container */
+.right-sidebar {
+    display:flex !important;
+    flex-wrap:wrap !important;
+    justify-content: center !important;
+}
+
+.right-sidebar  h4{
+    margin-left: 0.6cm !important;
+}
+
+.right-sidebar  .card{
+    border-radius: 15px !important;
+    width: 72% !important;
+}
+
+/* columns */
+.right-sidebar > * {
+    width:100% !important;
+    padding:1rem !important;
+}
+
+.right-sidebar .table{
+    border-color:var(--bs-table-border-color) !important;
+    font-size: 15px !important;
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+    .right-sidebar  td:nth-child(1) {
+        width:calc(100% / 3 * 2) !important;
+    }
+    .right-sidebar td:nth-child(2) {
+        width:calc(100% / 3) !important;
+    }
+}

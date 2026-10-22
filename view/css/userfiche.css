@@ -1,0 +1,29 @@
+.sheet{
+transition: 0.3s;
+}
+
+.sheet .card{
+    max-width: 25cm;
+}
+.sheet .row > div{
+    width: auto;
+    padding: 0 50px;
+}
+.ml-4{
+    margin-left: 40px;
+}
+.user-avatar-section .user-info{
+    flex-direction: column;
+    margin-left: 0.5cm;
+}
+.user-avatar-section h5.listData{
+    position: relative;
+    left: -1.5cm;
+}
+@media ( max-width:783px) and (min-width: 540px)  {
+    .sheet.col-sm-06 {
+        flex: 0 0 auto;
+        width: 375px !important;
+    }
+}
+
